@@ -1,4 +1,4 @@
-# Openssl-simpl
+# Openssl Simple
 Die einfachste Möglichkeit Openssl zu Compilern auf Windows.
 
 Schritt 1: Enterprise Visual Studio C++ installieren
