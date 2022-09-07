@@ -8,7 +8,7 @@ Schritt 1: Enterprise Visual Studio C++ installieren
 
 Schritt 2: install.bat in einer Admin CMD öffnen
 
-Schritt 3: compilern.bat in einer cmd öffnen
+Schritt 3: kompilieren.bat in einer cmd öffnen
 
 Schritt 4: Alle Fertigen dateien werden sich in order ausgabe befinden
 
