@@ -6,7 +6,7 @@ Die einfachste Möglichkeit Openssl zu kompilieren auf Windows.
 
 Schritt 1: Enterprise Visual Studio C++ installieren
 
-Schritt 2: install.bat in einer Admin x64 CMD öffnen
+Schritt 2: install.bat in einer Admin CMD öffnen
 
 Schritt 3: compilern.bat in einer cmd öffnen
 
