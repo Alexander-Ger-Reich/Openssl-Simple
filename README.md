@@ -1,6 +1,6 @@
 # Openssl einfach
 
-Die einfachste Möglichkeit Openssl zu Compilern auf Windows.
+Die einfachste Möglichkeit Openssl zu kompilieren auf Windows.
 
 # Option 1
 
