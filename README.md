@@ -1,4 +1,4 @@
-# Openssl Simple
+# Openssl einfach
 
 Die einfachste Möglichkeit Openssl zu Compilern auf Windows.
 
