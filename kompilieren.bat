@@ -1,6 +1,4 @@
 @echo off
-cpan -i Text::Template
-cpan -i Test::More
 mkdir %cd%\ausgabe
 mkdir %cd%\ausgabe\Lib
 mkdir %cd%\ausgabe\DLL
@@ -25,6 +23,8 @@ git clone https://github.com/openssl/openssl.git
 cd openssl
 
 @call "C:\Program Files\Microsoft Visual Studio\2022\"%vs_v%"\VC\Auxiliary\Build\vcvarsall.bat" x64 %*
+cpan -i Text::Template
+cpan -i Test::More
 perl Configure VC-WIN64A --prefix=%location%\ausgabe\Lib\x64\Release --openssldir=%location%\ausgabe\SSL no-shared
 nmake
 nmake test
