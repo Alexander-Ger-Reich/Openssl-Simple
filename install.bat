@@ -15,3 +15,4 @@ powershell -command "Set-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\System
 set path=%path%+C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\NASM;
 cpan -i Text::Template
 cpan -i Test::More
+cmd
