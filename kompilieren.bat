@@ -1,4 +1,6 @@
 @echo off
+cpan -i Text::Template
+cpan -i Test::More
 mkdir %cd%\ausgabe
 mkdir %cd%\ausgabe\Lib
 mkdir %cd%\ausgabe\DLL
