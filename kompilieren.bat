@@ -63,3 +63,4 @@ nmake install_sw
 nmake clean
 
 echo Fertig
+cmd
