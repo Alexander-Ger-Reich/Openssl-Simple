@@ -1,3 +1,4 @@
+@echo off
 mkdir %cd%\ausgabe
 mkdir %cd%\ausgabe\Lib
 mkdir %cd%\ausgabe\DLL
