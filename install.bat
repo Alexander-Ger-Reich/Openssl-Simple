@@ -1,7 +1,7 @@
 @echo off
 set location=%cd%
 set vs_v=dir "C:\Program Files\Microsoft Visual Studio\2022\" /b
-@call %vs_v%+\VC\Auxiliary\Build\vcvarsall.bat x64 %*
+@call "C:\Program Files\Microsoft Visual Studio\2022\"+%vs_v%+"\VC\Auxiliary\Build\vcvarsall.bat" x64 %*
 C:\Windows\System32\bitsadmin.exe /transfer "nasm" /download /priority FOREGROUND https://www.nasm.us/pub/nasm/releasebuilds/2.14.02/win64/nasm-2.14.02-installer-x64.exe "%location%\nasm-2.14.02-installer-x64.exe"
 C:\Windows\System32\bitsadmin.exe /transfer "perl" /download /priority FOREGROUND https://strawberryperl.com/download/5.32.1.1/strawberry-perl-5.32.1.1-64bit.msi "%location%\strawberry-perl-5.32.1.1-64bit.msi"
 "%location%\strawberry-perl-5.32.1.1-64bit.msi" /passive /norestart
