@@ -17,6 +17,7 @@ mkdir %cd%\ausgabe\DLL\x32\Release
 set location=%cd%
 dir "C:\Program Files\Microsoft Visual Studio\2022\" /b > temp.txt
 set /p vs_v=<temp.txt
+del temp.txt
 git clone https://github.com/openssl/openssl.git
 cd openssl
 
