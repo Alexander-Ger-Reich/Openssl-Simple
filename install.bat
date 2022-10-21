@@ -9,6 +9,8 @@ C:\Windows\System32\bitsadmin.exe /transfer "perl" /download /priority FOREGROUN
 "%location%\strawberry-perl-5.32.1.1-64bit.msi" /passive /norestart
 "%location%\nasm-2.14.02-installer-x64.exe"
 winget install --id Git.Git -e --source winget
+del "%location%\strawberry-perl-5.32.1.1-64bit.msi"
+del "%location%\nasm-2.14.02-installer-x64.exe"
 powershell -command "Set-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment' -Name PATH -Value ((Get-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment' -Name PATH).path + ';C:\Program Files\NASM')"
 set path=%path%+C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\NASM;
 cpan -i Text::Template
